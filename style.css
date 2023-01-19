@@ -1,0 +1,105 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+ 
+    background: url(pexels-photo-7377687.jpeg) no-repeat center;
+    background-size: cover;
+    height: 700px;
+    position: relative
+   
+   
+}
+.container
+{
+    width: 350px;
+    margin: auto; 
+   
+   background-color: rgba(0,0,0, 0.4);
+   padding:10%;
+}
+  .FirstName
+{
+    height: 40px;
+border-radius: 4px;
+}   
+
+.gender{ 
+    display: inline;
+
+}
+
+.LastName
+{
+height: 40px;
+border-radius: 4px;
+padding-left: 0px;
+
+}
+.gender
+{ color: white;
+    display: flow-root;
+    height: 40px;
+border-radius: 4px;
+}
+/* .Email .ConfirmPassword .Password .LastName
+{display: flex;} */
+   
+/* .Button{
+    position: abs;
+    bottom: 40%;
+    left: 40%;
+} */
+.button {
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 39%;
+    bottom: 18%;
+    
+  }      
+       
+  
+   .Email
+  {
+    height: 40px;
+border-radius: 4px;
+position:relative;
+
+
+  }
+         
+
+ 
+  label {    color:white; }
+  .Button_em
+  {
+    position: relative;
+    right: 20%;
+  }
+#em
+{
+    position: relative;
+    left: 11%;
+}
+#pass
+{
+    position: relative;
+    left: 3%;
+}
+#repass
+{
+    position: relative;
+    left: 6%;
+}
+#lname{
+    position: relative;
+    left: 1%;
+}
